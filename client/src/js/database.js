@@ -14,7 +14,7 @@ const initdb = async () =>
 
 // Method to add content to the database
 export const putDb = async (content) => {
-  const textD = await openDb('jate', 1);
+  const textDb = await openDb('jate', 1);
   const tx = textDb.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
 
