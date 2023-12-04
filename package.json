@@ -12,7 +12,7 @@
     "client": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "Cardon Hickman / U of U Fullstack",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
